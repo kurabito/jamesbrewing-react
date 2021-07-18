@@ -1,0 +1,22 @@
+/* h1, p {
+  font-family: Lato;
+} */
+body {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+  margin: 10px;
+}
+label {
+  display: block;
+}
+input {
+  width: 10ch;
+}
+a {
+  color: black;
+}
+h1 > a {
+  text-decoration: none;
+}
