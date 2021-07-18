@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import FeatureList from './FeatureList'
-import ABVfromOGandSG from './ABVfromOGandSG';
-import NameForm from './NameForm'
+import FeatureList from './FeatureList';
+import ABVfromOGandFG from './ABVfromOGandFG';
+import ABVfromSGandBrix from './ABVfromSGandBrix';
 
 export default function JamesBrewing() {
   return (
@@ -14,7 +14,10 @@ export default function JamesBrewing() {
             <FeatureList />
           </Route>
           <Route exact path="/abvogfg">
-            <ABVfromOGandSG />
+            <ABVfromOGandFG />
+          </Route>
+          <Route exact path="/abvsgbrix">
+            <ABVfromSGandBrix />
           </Route>
         </Switch>
     </Router>
