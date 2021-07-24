@@ -41,7 +41,7 @@ class ABVfromOGandFG extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form>
         <h2>ABV from OG and FG</h2>
         <div>
           <label htmlFor="og">Original gravity</label>

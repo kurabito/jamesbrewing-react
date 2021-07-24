@@ -38,7 +38,7 @@ class ABVfromSGandBrix extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form>
         <h2>ABV from SG and Brix</h2>
         <div>
           <label htmlFor="sg">Specific gravity</label>
