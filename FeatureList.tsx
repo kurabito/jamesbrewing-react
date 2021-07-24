@@ -10,6 +10,9 @@ export default function FeatureList() {
       <div>
         <Link to="/abvsgbrix">ABV from SG and Brix</Link>
       </div>
+      <div>
+        <Link to="/strikewater">Strike Water Temperature</Link>
+      </div>
     </div>
   );
 }
